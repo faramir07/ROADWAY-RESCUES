@@ -1,12 +1,13 @@
+import { Country } from "./components";
+import { NavBar } from "./components/navbar";
 
 function App() {
-  
-
   return (
     <>
-      hola
+      <NavBar />
+      <Country />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
